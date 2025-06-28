@@ -22,16 +22,16 @@
 		<sonar.exclusions>**/*.css</sonar.exclusions>
 	</properties>
 
-    <distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<url>http://13.57.13.23:8081/repository/rushitech-release/</url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus</id>
-			<url>http://13.57.13.23:8081/repository/rushitech-snapshot/</url>
-		</snapshotRepository>
-    </distributionManagement>
+  	<distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <url>http://65.0.76.195:8081/repository/awr-release/</url>
+  </repository>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://65.0.76.195:8081/repository/awr-snapshot/</url>
+  </snapshotRepository>
+</distributionManagement>
 
 	<dependencies>
 		<dependency>
